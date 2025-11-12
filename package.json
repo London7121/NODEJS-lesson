@@ -1,0 +1,22 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "description": "NODEJS starter lesson",
+  "keywords": [
+    "nodejs"
+  ],
+  "license": "ISC",
+  "author": "Kamol Juraev",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.8",
+    "jquery": "^3.7.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  }
+}
