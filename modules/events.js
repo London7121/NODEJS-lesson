@@ -1,0 +1,16 @@
+const Events = require('events')
+
+class Logger extends Events {
+    log(a, b) {
+        this.emit("calculate", a + b)
+    }
+}
+
+const logger = new Logger()
+
+logger.on("calculate", (data) => {
+    console.log(data)
+})
+
+logger.log(8, 11)       // => 19
+logger.log(-8, -13)     // => -21
